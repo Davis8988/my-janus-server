@@ -3,6 +3,7 @@ services:
 
   janus-gateway:
     image: 'canyan/janus-gateway:0.10.7'
+    container_name: "janus-gateway"
     command: ["/usr/local/bin/janus", "-F", "/usr/local/etc/janus"]
     ports:
       - "8088:8088"
