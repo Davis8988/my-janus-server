@@ -5,7 +5,7 @@
 # between application(s) and Janus.
 general: {
 	configs_folder = "@confdir@"			# Configuration files folder
-	plugins_folder = "@plugindir@"			# Plugins folder
+	# plugins_folder = "@plugindir@"			# Plugins folder
 	transports_folder = "@transportdir@"	# Transports folder
 	events_folder = "@eventdir@"			# Event handlers folder
 	loggers_folder = "@loggerdir@"			# External loggers folder
